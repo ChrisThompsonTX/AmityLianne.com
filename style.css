@@ -4,3 +4,8 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.pinned-top {
+    background-color: #e4383b;
+    height: 130vh;
+}
