@@ -35,6 +35,7 @@ body {
 
 .content-container {
     background-color: #353535;
+    padding: 3px;
 }
 
 .post-item {
@@ -62,9 +63,14 @@ body {
     font-style: normal;
 }
 
-.post-item h4 {
+.post-item h4, p {
     color: rgba(255,255,255,0.4);
     font-size: .9rem;
     font-weight: 400;
     font-family: monospace;
 }
+
+.post-item p {
+    display: none;
+}
+
