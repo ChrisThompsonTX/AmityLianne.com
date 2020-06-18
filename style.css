@@ -5,6 +5,31 @@ body {
     padding: 0;
 }
 
+/* Header */
+
+.header {
+    position: fixed;
+    width: 96vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+}
+
+.header .left {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.header .right {
+    display: flex;
+}
+
+.header .right a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+    font-family: monospace;
+}
+
+
 /* Pinned Top */
 
 .pinned-top {
@@ -72,5 +97,9 @@ body {
 
 .post-item p {
     display: none;
+    margin: 1vw 0;
+    padding: 1vw;
+    background-color: #353535;
+    /* color: white; */
 }
 
