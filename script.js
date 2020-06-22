@@ -1,0 +1,1 @@
+const postInfo = document.querySelectorAll('.post-info');
