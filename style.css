@@ -134,13 +134,17 @@ body {
     .content-container {
         background-color: #353535;
         padding: 3px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: stretch;
     }
 
     .post-item {
         background-color: #000000;
         padding: 1vw;
-        margin: 1vw;
+        margin: .5vw;
         border-radius: 5px;
+        width: 20vw;
     }
 
     .post-item img {
