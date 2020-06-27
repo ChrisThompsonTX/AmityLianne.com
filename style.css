@@ -137,6 +137,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         align-content: stretch;
+       
     }
 
     .post-item {
@@ -144,7 +145,8 @@ body {
         padding: 1vw;
         margin: .5vw;
         border-radius: 5px;
-        width: 20vw;
+        /* width: 20vw; */
+         flex: 1;
     }
 
     .post-item img {
