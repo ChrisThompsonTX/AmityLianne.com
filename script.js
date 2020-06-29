@@ -1,2 +1,7 @@
-const imageContainer = document.querySelectorAll('.post-container')
-const postInfo = document.querySelectorAll('.post-info');
+const imageContainers = document.querySelectorAll('.post-item')
+
+function openInfo() {
+    console.log('hey')
+}
+
+imageContainers.forEach(image => image.addEventListener('click', openInfo()));

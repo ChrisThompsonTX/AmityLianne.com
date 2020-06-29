@@ -38,14 +38,11 @@ body {
 
 .pinned-top {
     background-color: #e4383b;
-    height: 100vh;
+    height: 140vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
-    background-image: url("/assets/agent.png");
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: 80vw;
 }
 
@@ -54,10 +51,13 @@ body {
     font-size: 6rem;
     font-weight: 400;
     font-family: 'Big Caslon FB';
+    position: relative;
+    top: 35vh;
 }
 
 .pinned-top img {
-    align-self: center;
+    position: absolute;
+    top: 20vh;
 }
 
 /* Posts */
@@ -136,7 +136,7 @@ body {
         padding: 3px;
         display: flex;
         flex-wrap: wrap;
-        align-content: stretch;
+        /* align-content: stretch; */
        
     }
 
@@ -146,7 +146,7 @@ body {
         margin: .5vw;
         border-radius: 5px;
         /* width: 20vw; */
-         flex: 1;
+         /* flex: 1; */
     }
 
     .post-item img {
