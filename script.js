@@ -1,7 +1,11 @@
-const imageContainers = document.querySelectorAll('.post-item')
+const imageContainers = document.querySelectorAll('.post-item');
+const amity = document.querySelector('.amity');
 
-function openInfo() {
-    console.log('hey')
+
+
+function openInfo(e) {
+    console.log(e)
 }
 
-imageContainers.forEach(image => image.addEventListener('click', openInfo()));
+imageContainers.forEach(image => image.addEventListener('click', openInfo));
+window.addEventListener('scroll', (e)=> console.log(e))

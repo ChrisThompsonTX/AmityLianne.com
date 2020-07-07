@@ -100,7 +100,7 @@ body {
 }
 
 .post-item p {
-    display: none;
+    /* display: none; */
     margin: 1vw 0;
     padding: 1vw;
     background-color: #353535;
