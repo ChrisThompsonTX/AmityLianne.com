@@ -4,7 +4,7 @@ const amity = document.querySelector('.amity');
 
 
 function openInfo(e) {
-    console.log(e)
+    console.log(e.target)
 }
 
 imageContainers.forEach(image => image.addEventListener('click', openInfo));
