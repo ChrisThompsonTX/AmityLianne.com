@@ -52,15 +52,27 @@ body {
     font-weight: 400;
     font-family: 'Big Caslon FB';
     position: relative;
-    top: -30vh;
+    top: -33.5vh;
 }
 
 .pinned-top img {
     top: 20vh;
     position: sticky;
-    padding: 1em;
+    padding: 1em .5em;
     margin-bottom: 20vh;
-    background-color: #353535;
+}
+
+.pinned-top div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    justify-content: space-between;
+    top: -25vh;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: monospace;
+    font-size: 1.4rem;
 }
 
 
@@ -109,6 +121,8 @@ body {
     padding: 1vw;
     background-color: #353535;
     color: white;
+    height: 10vh;
+    overflow: scroll;
 }
 
 @media only screen and (min-width : 768px) {
@@ -131,6 +145,12 @@ body {
 
     .pinned-top h1 {
         font-size: 10rem;
+        top: -26vh;
+    }
+
+    .pinned-top div {
+        flex-direction: row;
+        top: -16vh;
     }
 
     /* Posts */
@@ -149,7 +169,7 @@ body {
         padding: 1vw;
         margin: .5vw;
         border-radius: 5px;
-        /* width: 20vw; */
+        width: 20vw;
          /* flex: 1; */
     }
 
