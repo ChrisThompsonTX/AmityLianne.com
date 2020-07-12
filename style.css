@@ -60,6 +60,10 @@ body {
     top: 20vh;
 }
 
+.active {
+    position: absolute;
+}
+
 /* Posts */
 
 .content-container {
