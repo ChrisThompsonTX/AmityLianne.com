@@ -38,7 +38,7 @@ body {
 
 .pinned-top {
     background-color: #e4383b;
-    height: 140vh;
+    height: 130vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -52,17 +52,17 @@ body {
     font-weight: 400;
     font-family: 'Big Caslon FB';
     position: relative;
-    top: 35vh;
+    top: -30vh;
 }
 
 .pinned-top img {
-    position: absolute;
     top: 20vh;
+    position: sticky;
+    padding: 1em;
+    margin-bottom: 20vh;
+    background-color: #353535;
 }
 
-.active {
-    position: absolute;
-}
 
 /* Posts */
 
