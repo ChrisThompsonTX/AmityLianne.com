@@ -166,16 +166,27 @@ body {
 
     .post-item {
         background-color: #000000;
-        padding: 1vw;
-        margin: .5vw;
+        padding: .8vw;
+        margin: .5vw .25vw;
         border-radius: 5px;
-        width: 21.8vw;
+        width: 22.82vw;
+    }
+
+    .post-info {
+        padding-top: .5vh;
+    }
+
+    .image-container {
+        height: 40vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .post-item img {
         width: 100%;
         border-radius: 5px;
-        height: 40vh;
     }
 
     .post-item .post-info {
